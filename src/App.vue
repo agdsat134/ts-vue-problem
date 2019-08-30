@@ -9,6 +9,14 @@
 import { Component, Vue } from 'vue-property-decorator';
 import HelloWorld from './components/HelloWorld.vue';
 
+interface Test{
+	hello: string;
+};
+
+let test: Test = {
+	hello: 1
+};
+
 @Component({
   components: {
     HelloWorld,
